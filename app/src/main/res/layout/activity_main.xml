@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/iv"
         android:layout_width="209dp"
         android:layout_height="200dp"
         android:layout_marginTop="196dp"
@@ -16,14 +16,15 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imBtn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="click"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.337"
+        app:layout_constraintTop_toBottomOf="@+id/iv"
+        app:layout_constraintVertical_bias="0.37"
         app:srcCompat="@drawable/clickhere" />
 </androidx.constraintlayout.widget.ConstraintLayout>
